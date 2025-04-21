@@ -1,11 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
 
-const GlobalStyle = createGlobalStyle`
-  :root {
-    --corPrincipal: #a7727d;
-    --corSecundaria: #f9f5e7;
-  }
+export const corPrincipal = '#a7727d'
+export const corSecundaria = '#f9f5e7'
 
+const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
